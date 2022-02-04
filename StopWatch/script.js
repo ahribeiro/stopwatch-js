@@ -27,8 +27,8 @@ function resetCronometro() {
     minute = 0;
     second = 0;
     const element = document.querySelectorAll('span');
-    element.forEach(() => {
-        element.innerText = '00';
+    element.forEach((item) => {
+        item.innerText = '00';
     })    
 }
 
